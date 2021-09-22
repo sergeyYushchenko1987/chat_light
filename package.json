@@ -1,0 +1,44 @@
+{
+  "name": "chat_light",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "serve": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeyYushchenko1987/chat_light.git"
+  },
+  "author": "Sergey Yushchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergeyYushchenko1987/chat_light/issues"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@services": "src/services",
+    "@models": "src/models",
+    "@servers": "src/servers"
+  },
+  "homepage": "https://github.com/sergeyYushchenko1987/chat_light#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12",
+    "prettier": "2.4.1"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2",
+    "path": "^0.12.7",
+    "socket.io": "^4.2.0"
+  }
+}
